@@ -15,7 +15,7 @@
       </div>
       <div id="content">{% block body %}{% end %}</div>
       <div id="footer">
-	&copy;{{ datetime.datetime.utcnow().year }} Bret Taylor - <a href="/about">About me</a> - <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons license</a>
+	&copy;{{ datetime.datetime.utcnow().year }} Rakesh Rajan - <a href="/about">About me</a> - <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons license</a>
 	{% if current_user %} - <a href="{{ users.create_logout_url(request.uri) }}">Sign out</a>{% end %}
       </div>
     </div>
